@@ -1,4 +1,8 @@
-import firebase from "firebase";
+// v9 compat packages are API compatible with v8 code
+import firebase from 'firebase/compat/app';
+import 'firebase/compat/auth';
+import 'firebase/compat/firestore';
+import 'firebase/compat/storage'
 
 const app = firebase.initializeApp({
   apiKey: "AIzaSyC92Z-aIe2WT0wDFvLKPJXaV4fgiV9EtoU",
