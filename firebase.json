@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "medtech117-5f281",
     "public": "public",
     "ignore": [
       "firebase.json",
